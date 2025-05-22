@@ -5,7 +5,8 @@ import { map } from 'rxjs/operators';
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
-  private URL = 'http://localhost:5000/api/auth';
+  private URL ='https://mofor-task-backend.onrender.com/api/auth';
+  //private URL = 'http://localhost:5000/api/auth';
 
   constructor(private http: HttpClient, private router: Router) {}
 

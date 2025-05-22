@@ -5,7 +5,8 @@ import { throwError } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
 export class TaskService {
-  private URL = 'http://localhost:5000/api/tasks';
+  private URL ='https://mofor-task-backend.onrender.com/api/tasks';
+  //private URL = 'http://localhost:5000/api/tasks';
 
   constructor(private http: HttpClient) {}
 
